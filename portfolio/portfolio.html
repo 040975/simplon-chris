@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>mon portfolio</title>
+    <link rel="stylesheet" href="css/portfolio.css" media="screen" title="no title">
+    <script type="text/javascript" src="js/jScript.js"></script>
+</head>
+
+<body>
+    <!-- navbar-->
+    <a href="#navbar"><img class="logo2" src="image/chris.jpg" alt="logo" title="acceuil"></a>
+    <nav id="navbar">
+        <h1 class="vidal"> VIDAL</br>CHRISTIAN</h1>
+        <ul>
+            <li> <a href="#acceuil">ACCUEIL</a></li>
+            <li> <a href="#portfolio">PORTFOLIO</a></li>
+            <li> <a href="#presentation">PRESENTATION</a></li>
+            <li> <a href="#contact">CONTACT</a></li>
+        </ul>
+        <img class="logo" src="image/chris2.jpg" alt "logo">
+    </nav>
+    <!--fin de navbar-->
+    <div id="acceuil">
+        <!--acceuil-->
+        <div id="input">
+        <p class="aimez">aimez vous ce portfolio</p>
+        <input type="radio"name="aimez vous ce site" value="oui" id="oui" checked="checked"/>
+        <label for="oui">oui</label>
+        <input type="radio"name="aimez vous ce site" value="non" id="non" checked="checked"/>
+        <label for="non">non</label>
+       </div>
+        <div class="entete">
+            <h1 class="bienvenue">Bonjour  a tous </br>Bienvenue sur mon portfolio</br> Bonne visite </h1>
+        </div>
+    </div>
+    <!-- fin acceuil-->
+
+    <div id="portfolio">
+        <!--corp portfolio-->
+        <h1 class="noms">MON PORTFOLIO</h1>
+        <!--titre-->
+        <h1 class="challenge">CHALLENGE</h1>
+        <div class="corps">
+            <!--image 1-->
+            <a href="exercices/chall1 vc/index.html"><img class="image" src="image/challenge1.png" alt="challenge1" /></a>
+
+            <p class="paragraphe">Premier exercice de quatre pages comprenant 4 dossiers intitulés FONT, PAGE, IMAGE,CSS </br>
+                ainsi qu'un fichier index.html.</p>
+        </div>
+        <!--fin image 1-->
+        <h1 class="maquette">MAQUETTE</h1>
+        <div class="corps">
+            <!-- image-->
+            <a href="exercices/maquette/maquette.html"><img class="image" src="image/maquette1.png" alt="maquette" /></a>
+            <p class="paragraphe"> Reproduction a l'identique d'une maquette imposée par Hélène .</p>
+        </div>
+        <!--fin image2-->
+        <h1 class="visage">VISAGE</h1>
+        <div class="corps">
+            <!-- page 3-->
+            <a href="exercices/visage/index.html"><img class="image" src="image/visage1.png" alt="visage" /></a>
+            <p class="paragraphe"> Réalisation de ce visage avec 5 différentes divs</p>
+        </div>
+        <!--fin image 3-->
+        <h1 class="exo5">EXERCICE</h1>
+        <div class="corps">
+            <!--page4-->
+            <a href="exercices/exo5/index4.html"><img class="image" src="image/exo5.png" alt="exo5" /></a>
+            <p class="paragraphe"> Réalisation de 5 divs en respectant une largeur de 70%, en ajoutant un titre h2, sans-serif, en uppercase et surligné.
+            </p>
+        </div>
+        <!-- fin image 4-->
+    </div>
+    <!--fin portfolio-->
+    <!--presentation-->
+    <div id="presentation">
+        <h1 class="presentation1">PRESENTATION</h1>
+        <div id="corps3">
+            </br>
+            <p id="present1">Christian Vidal, 41 ans, marié, 2 enfants.</p>
+            </br>
+            <p id="present">Après une longue expérience en tant qu'Assistant chef de magasin pour la sociétè AldiMarché, j'intègre actuellement la deuxiéme promotion du centre de formation SIMPLON en vue d'une reconvertion totale.</p>
+            </br>
+            <p id="present">MES COMPETENCES ACTUELLES.</p>
+            </br>
+            <p id="html">html</p>
+            <progress class="exp1" max="100" value="80">
+            </progress>
+            <script>
+                progress(80, 0);
+            </script>
+            </br>
+            <p id="css">css</p>
+            <progress class="exp2" max="100" value="80">
+           </progress>
+            <script>
+                progress(80, 1);
+            </script>
+            </br>
+            <p id="javascript">Javascript</p>
+            <progress class="exp3" max="100" value="80">
+          </progress>
+            <script>
+                progress(10, 2);
+            </script>
+            </br>
+            <p id="css">PHP</p>
+            <progress class="exp4" max="100" value="80">
+         </progress>
+            <script>
+                progress(10, 3);
+            </script>
+        </div>
+    </div>
+    <!--fin presentation-->
+
+    <div id="contact">
+        <!--contact-->
+        <h1 class="contact">CONTACT</h1>
+
+        <div id="contact2">
+            <!--formulaire-->
+            <form method="post action"="traitement.php">
+                <label for="nom">votre nom:</label></br>
+                <input type "text"name="nom" id="nom" />
+                </br>
+                <label for="prenom">votre prénon:</label></br>
+                <input type "text"name="prenon" id="prenon" />
+                </br>
+                <label for="adresse">votre adresse:</label></br>
+                <input type "text"name="adresse" id="adresse" />
+                </br>
+                <label for="email">votre @mail:</label></br>
+                <input type "email"name="email" id="email" />
+                </br>
+                <label for="nom">votre code postal:</label></br>
+                <input type "number"name="code postal" id="code postal" />
+                </br>
+                </br>
+                <label for="message">laissez votre message ici:</label>
+                </br>
+                <textarea name="message" id="message" row="100" cols="120">
+               </textarea>
+                </br>
+                <input id="bouton" type="submit" value="envoyez" />
+            </form>
+          </div><!-- fin de formulaire-->
+
+         <div id="map">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.6998393182425!2d1.6137961508942913!3d50.72550757528835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dc2c492dee16af%3A0xc38d80ba949c1d3c!2sRue+du+Ch%C3%A2teau%2C+62200+Boulogne-sur-Mer!5e0!3m2!1sfr!2sfr!4v1478249790018"
+               width="520" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+    </div><!-- fin contact-->
+
+
+    <footer>
+        <p class="copyright">&copy;VC<p>
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>

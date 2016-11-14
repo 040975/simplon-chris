@@ -1,0 +1,45 @@
+
+
+div{
+  width:70%;
+  height:500px;
+  overflow: hidden;/*cacher tous se qui sort*/
+}
+h2{
+  font-family:sans-serif;
+  text-transform: uppercase;
+  text-decoration:underline;
+  margin-left: 200px;
+  display:inline;/*met les element en ligne*/
+}
+.index1 {
+  float:left;/*fais flotter l'element*/
+  height:100%;
+  width:200px;
+}
+p::first-letter{/*premier lettre seulement*/
+  color:red;
+font-size:2em;
+}
+
+#container6{
+  width:30%;
+  position:fixed;/*fixe lement*/
+  top: 30px;
+  right: 10px;
+  float:right;
+}
+  ul {
+    border:solid black 1px;
+    border-radius:50px;
+    background-image:url("index.jpeg");
+    background-size:contain;
+  }
+li {
+  text-align: center;
+  list-style-type: none;/*retir les souligné*/
+}
+a{
+text-decoration:none;
+color:green;
+}

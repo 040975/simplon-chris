@@ -1,0 +1,335 @@
+@font-face {
+    font-family: Bungasai;
+    src: url(../font/Bungasai.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../image/cityFlower.jpg");
+    background-size: cover;
+    font-family: Bungasai;
+}
+
+#nav0 {
+    height: 100px;
+    width: 100%;
+    border: 1px solid green;
+    background-image: linear-gradient(#abf2c3, #f2f2ae);
+    font-family: sans-serif;
+}
+
+#logo1 {
+    float: right;
+    height: 100px;
+    width: 100px;
+    border: 1px outset pink;
+}
+
+#ul {
+    display: table;
+    float: right;
+    margin-top: 20px;
+}
+
+#nav {
+    border: 2px outset pink;
+    /*li before{content:"\A4\"}*/
+    display: table-cell;
+    padding: 10px;
+    background-image: linear-gradient(#abf2c3, #f2f2ae);
+}
+
+.autour {
+    width: auto;
+    height: 420px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding-top: 150px;
+}
+
+.corp {
+    width: 60%;
+    height: 300px;
+    border: 10px outset pink;
+    margin: auto;
+    position fixed;
+    background-image: linear-gradient(#abf2c3, #f2f2ae);
+}
+
+#titre {
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    color: #e811d3;
+}
+
+.para {
+    width: 80%;
+    height: 55px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: green;
+    padding: 10px;
+}
+
+span {
+    color: green;
+}
+
+.bouton {
+    margin: 40%;
+    text-align: center;
+    padding: 25px;
+    background-image: linear-gradient(#abf2c3, #f2f2ae);
+    border: 3px outset green;
+}
+
+a {
+    color: green;
+}
+
+a:hover {
+    color: pink;
+    position: relative;
+    top: 0;
+    box-shadow: 0 0 65px green inset, 0 0 20px green inset, 0 0 2px yellow;
+    transition: all 0.3s ease-in;
+}
+
+
+/*page 2*/
+
+#titre2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 2em;
+}
+
+.millieu {
+    width: auto;
+    height: 560px;
+    border: 1px solid black;
+    background-image: url("../image/wood4.png");
+}
+
+.contour {
+    width: 95%;
+    height: 450px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.milieu1 {
+    height: 450px;
+    width: 21%;
+    border: 1px solid black;
+    float: left;
+    background-image: url("../image/patternMosa4.jpg");
+}
+
+.milieu2 {
+    height: 450px;
+    width: 21%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 5%;
+    background-color: #838b86;
+}
+
+.milieu3 {
+    height: 450px;
+    width: 21%;
+    border: 1px solid black;
+    float: right;
+    margin-left: 5%;
+    background-image: url("../image/patternMosa7.jpg");
+}
+
+.milieu4 {
+    height: 450px;
+    width: 21%;
+    border: 1px solid black;
+    float: right;
+    margin-left: 5%;
+    background-image: url("../image/patternMosa6.jpg");
+}
+
+#fleur1 {
+    margin-left: 4%;
+    margin-top: 4%;
+    border: 1px solid black;
+    height: 200px;
+    width: 90%;
+    background: url("");
+    background-position: center;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+#fleur1:hover {
+    transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')";
+    /* IE8 */
+    filter: progid: DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand');
+    /* IE6 and 7 */
+}
+
+.nom {
+    text-align: center;
+    margin-left: 4%;
+}
+
+.description {
+    color: #5242af;
+    width: 90%;
+    height: 50px;
+    margin-left: 4%;
+}
+
+
+/*page 3*/
+
+.corp3 {
+    width: auto;
+    height: 570px;
+    border: 1px solid black;
+    background-image: url("../image/pattern8.jpg");
+}
+
+.titre3 {
+    margin-left: 5%;
+}
+
+.corp4 {
+    width: 90%;
+    height: 200px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.corp5 {
+    width: 90%;
+    height: 200px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+#photo1 {
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+
+#para2 {
+    width: 68%;
+    height: 100%;
+    margin-left: 32%;
+}
+
+#photo2 {
+    height: 100%;
+    width: 30%;
+    float: right;
+}
+
+#para3 {
+    width: 68%;
+    height: 100%;
+    direction: rtl;
+}
+
+
+/*final*/
+
+#H1 {
+    width: auto;
+    height: 100px;
+    border: 1px solid black;
+    background-image: linear-gradient(#26d0cb, white);
+}
+
+#titref {
+    margin-left: 5%;
+}
+
+#final {
+    height: 455px;
+    width: auto;
+    background-image: url("../image/pattern7.jpg");
+    background-size: cover;
+}
+
+#final1 {
+    width: 45%;
+    height: 410px;
+    border: outset #abf2c3 10px;
+    margin-left: 2%;
+    margin-top: 2%;
+    float: left;
+    background-image: linear-gradient(#26d0cb, white);
+}
+
+#final2 {
+    width: 45%;
+    height: 410px;
+    border: outset #abf2c3 10px;
+    margin-right: 2%;
+    margin-top: 2%;
+    float: right;
+    background-image: linear-gradient(#26d0cb, white);
+    position: relative;
+}
+
+form {
+    margin-left: 5%;
+}
+
+textarea {
+    height: 130px;
+    width: 94%;
+}
+
+.input {
+    width: 92%;
+    margin-right: 5%;
+}
+
+.li1 {
+    margin-left: 8%;
+    line-height: 30px;
+    list-style-type: square;
+}
+
+#coinbg {
+    margin-left: 5%;
+    width: 92%;
+    /*background-color:#71787c;*/
+    height: 240px;
+    margin-top: 5%;
+}
+
+#bouton2 {
+    margin: auto;
+    display: block;
+    margin-top: 2%;
+}
+
+#logo2 {
+    height: 150px;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

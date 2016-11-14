@@ -1,0 +1,187 @@
+html, body {
+    margin: 0;
+    /*pour avoir la page couverte totalement*/
+    padding: 0;
+}
+
+body {
+    background-color: #0cf131;
+}
+/*navigateur*/
+a {
+    color: yellow;
+    text-decoration-line: none;
+    /*efface le souligné*/
+    border:solid white 1px;
+
+}
+a:hover{
+  color:white;
+  border:solid yellow 1px;
+}
+nav {
+    width: auto;
+    background-image: linear-gradient(green ,yellow);
+    border: solid black 1px margin: auto;
+}
+button {
+    color: green;
+    background-color: yellow;
+}
+ul {
+    display: table;
+    /* les positionne comme une liste*/
+    margin: auto;
+}
+li {
+    display: table-cell;
+    /*idem*/
+    padding: 20px;
+}
+/*entete de page*/
+header {
+    height: 250px;
+    width: auto;
+}
+h1 {
+    color: yellow;
+    text-shadow: 5px 5px 5px white;
+    position: absolute;
+}
+img {
+    float: right;
+    /*flotte limage */
+    height: 100%;
+    width: 400px;
+
+}
+p {
+    width: 600px;
+    position: absolute;
+    /* place le texte a lendroit voulue*/
+    margin-top: 100px;
+    color: yellow;
+}
+
+p, h1 {
+    margin-left: 60px;
+    /*decale le texte a gauche*/
+}
+/*corps de page*/
+
+#element2 {
+    width: auto;
+    height: 350px;
+    background-image:linear-gradient(green,yellow);
+}
+#fond {
+    width: 45%;
+    height: 80%;
+    background-color: #0cf131;
+    margin-left: 40px;
+    margin-top: 35px;
+    float: left;
+}
+
+#fond2 {
+    width: 45%;
+    height: 80%;
+    background-color: #0cf131;
+    float: right;
+    margin-right: 40px;
+    margin-top: 35px;
+}
+
+#image1 {
+    width: 100%;
+    height: 80%;
+    /*float:left;*/
+    border:1px solid white;
+}
+
+
+
+
+#image2 {
+    width: 100%;
+    height: 80%;
+    /*float:right;*/
+      border:1px solid white;
+}
+
+#titre {
+    text-align: center;
+    line-height: 50px;
+    color: yellow;
+}
+
+
+/*2 corp de page */
+
+#element3 {
+    height: 150px;
+    width: auto;
+
+}
+
+h3 {
+    text-align: center;
+    margin: auto;
+    width: auto;
+    margin-top: 80px;
+}
+
+h5 {
+    text-align: center;
+    margin: auto;
+    width: 45%;
+    height: 25px;
+}
+
+h5, h3 {
+    color: yellow;
+}
+
+#rond {
+    float: left;
+    /*image flotte a gauche*/
+    border-radius: 50% 50%;
+    border: solid black 1px;
+    background-image:linear-gradient(green,yellow);
+    height: 150px;
+    width: 150px;
+    margin-left: 40px;
+    margin-top:-40px;
+
+}
+
+#rond2 {
+    float: right;
+    /*limage flotte a droite*/
+    border: solid black 1px;
+    background-image:linear-gradient(green,yellow);
+    height: 150px;
+    width: 150px;
+    border-radius: 50% 50%;
+    margin-right: 40px;
+    margin-top:-40px;
+
+}
+
+
+/*pied de page*/
+
+footer {
+    height: 50px;
+    width: auto;
+    background-image: linear-gradient(green,yellow);
+
+}
+
+h6 {
+    margin: auto;
+    color: yellow;
+    text-align: center;
+    line-height: 50px;
+    /*decale le texte en hauteur*/
+}
